@@ -1,110 +1,229 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- displays site properly based on user's device -->
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<title>Easybank landing page</title>
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+		<!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+		<style>
+			.attribution {
+				font-size: 11px;
+				text-align: center;
+			}
 
-  <title>Easybank landing page</title>
+			.attribution a {
+				color: hsl(228, 45%, 44%);
+			}
+		</style>
+	</head>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
+	<body>
+		<nav>
+			<img class="nav-logo" src="images/logo.svg" alt="Easybank" />
+			<div class="nav-div">
+				<a href="index.html">Home</a>
+				<a href="index.html">About</a>
+				<a href="index.html">Contact</a>
+				<a href="index.html">Blog</a>
+				<a href="index.html">Careers</a>
+			</div>
+			<button class="nav-button">Request Invite</button>
+		</nav>
+		<header>
+			<!-- <div> -->
+			<div class="header1">
+				<h1 class="main-header">Next generation digital banking</h1>
+				<p>
+					Take your financial life online. Your Easybank account will be a
+					one-stop-shop for spending, saving, budgeting, investing, and much
+					more.
+				</p>
+				<!-- <div> -->
+				<button class="header-button">Request Invite</button>
+				<!-- </div> -->
+			</div>
+			<div class="header2">
+				<img src="./images/image-mockups.png" alt="" class="image-mockups" />
+			</div>
+			<!-- </div> -->
+		</header>
+		<section>
+			<div class="section-container">
+				<div class="section-heading">
+					<h1 class="section-subheading">Why choose Easybank?</h1>
+					<p class="section-content">
+						We leverage Open Banking to turn your bank account into your
+						financial hub. Control your finances like never before.
+					</p>
+				</div>
+				<div class="section-card-list">
+					<div class="section-card">
+						<div><img src="/images/icon-online.svg" /></div>
+						<div class="card-hading">Online Banking</div>
+						<div class="section-text">
+							Our modern web and mobile applications allow you to keep track of
+							your finances wherever you are in the world.
+						</div>
+					</div>
+					<div class="section-card">
+						<div><img src="/images/icon-budgeting.svg" /></div>
+						<div class="card-hading">Simple Budgeting</div>
+						<div class="section-text">
+							See exactly where your money goes each month. Receive
+							notifications when you’re close to hitting your limits.
+						</div>
+					</div>
+					<div class="section-card">
+						<div><img src="/images/icon-onboarding.svg" /></div>
+						<div class="card-hading">Fast Onboarding</div>
+						<div class="section-text">
+							We don’t do branches. Open your account in minutes online and
+							start taking control of your finances right away.
+						</div>
+					</div>
+					<div class="section-card">
+						<div><img src="/images/icon-api.svg" /></div>
+						<div class="card-hading">Open API</div>
+						<div class="section-text">
+							Manage your savings, investments, pension, and much more from one
+							account. Tracking your money has never been easier.
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<main>
+			<div class="main-section">
+				<div class="main-section-heading">Latest Articles</div>
+				<div class="main-card-list">
+					<div class="main-card">
+						<div class="main-card-image">
+							<img class="image" src="/images/image-currency.jpg" />
+						</div>
+						<div class="main-card-content">
+							<div class="content-head">By Claire Robinson</div>
+							<div class="content-main">
+								Receive money in any currency with no fees
+							</div>
+							<div class="content-footer">
+								The world is getting smaller and we’re becoming more mobile. So
+								why should you be forced to only receive money in a single ..
+							</div>
+						</div>
+					</div>
+					<div class="main-card">
+						<div class="main-card-image">
+							<img class="image" src="/images/image-restaurant.jpg" />
+						</div>
+						<div class="main-card-content">
+							<div class="content-head">By Wilson Hutton</div>
+							<div class="content-main">
+								Treat yourself without worrying about money
+							</div>
+							<div class="content-footer">
+								Our simple budgeting feature allows you to separate out your
+								spending and set realistic limits each month. That means you …
+							</div>
+						</div>
+					</div>
+					<div class="main-card">
+						<div class="main-card-image">
+							<img class="image" src="/images/image-plane.jpg" />
+						</div>
+						<div class="main-card-content">
+							<div class="content-head">By Wilson Hutton</div>
+							<div class="content-main">
+								Take your Easybank card wherever you go
+							</div>
+							<div class="content-footer">
+								We want you to enjoy your travels. This is why we don’t charge
+								any fees on purchases while you’re abroad. We’ll even show you …
+							</div>
+						</div>
+					</div>
+					<div class="main-card">
+						<div class="main-card-image">
+							<img class="image" src="/images/image-confetti.jpg" />
+						</div>
+						<div class="main-card-content">
+							<div class="content-head">By Claire Robinson</div>
+							<div class="content-main">
+								Our invite-only Beta accounts are now live!
+							</div>
+							<div class="content-footer">
+								After a lot of hard work by the whole team, we’re excited to
+								launch our closed beta. It’s easy to request an invite through
+								the site ...
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<!--   
+		          …        About Us Contact Blog Careers Support Privacy Policy Request
+		Invite © Easybank. All Rights Reserved -->
 
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-  </style>
-</head>
-
-<body>
-
-  Home
-  About
-  Contact
-  Blog
-  Careers
-
-  Request Invite
-
-
-
-  Next generation digital banking
-
-  Take your financial life online. Your Easybank account will be a one-stop-shop
-  for spending, saving, budgeting, investing, and much more.
-
-  Request Invite
-
-
-
-  Why choose Easybank?
-
-  We leverage Open Banking to turn your bank account into your financial hub. Control
-  your finances like never before.
-
-  Online Banking
-  Our modern web and mobile applications allow you to keep track of your finances
-  wherever you are in the world.
-
-  Simple Budgeting
-  See exactly where your money goes each month. Receive notifications when you’re
-  close to hitting your limits.
-
-  Fast Onboarding
-  We don’t do branches. Open your account in minutes online and start taking control
-  of your finances right away.
-
-  Open API
-  Manage your savings, investments, pension, and much more from one account. Tracking
-  your money has never been easier.
-
-
-
-  Latest Articles
-
-  By Claire Robinson
-  Receive money in any currency with no fees
-  The world is getting smaller and we’re becoming more mobile. So why should you be
-  forced to only receive money in a single …
-
-  By Wilson Hutton
-  Treat yourself without worrying about money
-  Our simple budgeting feature allows you to separate out your spending and set
-  realistic limits each month. That means you …
-
-  By Wilson Hutton
-  Take your Easybank card wherever you go
-  We want you to enjoy your travels. This is why we don’t charge any fees on purchases
-  while you’re abroad. We’ll even show you …
-
-  By Claire Robinson
-  Our invite-only Beta accounts are now live!
-  After a lot of hard work by the whole team, we’re excited to launch our closed beta.
-  It’s easy to request an invite through the site ...
-
-
-
-  About Us
-  Contact
-  Blog
-  Careers
-  Support
-  Privacy Policy
-
-  Request Invite
-
-  © Easybank. All Rights Reserved
-
-  <div class="attribution">
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
-
+		<footer class="footer">
+			<div class="footer-container">
+				<div class="footer-column-1">
+					<div class="footer-content1">
+						<img src="/images/logo2.svg" alt="" />
+					</div>
+					<div class="footer-content1">
+						<div class="social-links">
+							<a href="http://"><i class="fa fa-facebook-f"></i></a>
+							<a href="http://"><i class="fa fa-youtube-play"></i></a>
+							<a href="http://"><i class="fa fa-twitter"></i></a>
+							<a href="http://"><i class="fa fa-pinterest"></i></a>
+							<a href="http://"><i class="fa fa-instagram"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="footer-column-2">
+					<div class="footer-content2">
+						<ul>
+							<li><a href="http://">about us</a></li>
+							<li><a href="http://">Contact</a></li>
+							<li><a href="http://">Blog</a></li>
+						</ul>
+					</div>
+					<div class="footer-content2">
+						<ul>
+							<li><a href="http://">Career</a></li>
+							<li><a href="http://">Support</a></li>
+							<li><a href="http://">Privacy Policy</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer-column-3">
+					<div class="footer-content3">
+						<button class="footer-button">Request Invite</button>
+					</div>
+					<div class="footer-content3">© Easybank. All Rights Reserved</div>
+				</div>
+			</div>
+		</footer>
+		<div class="attribution">Coded by <a href="#">Deepanshu</a>.</div>
+	</body>
 </html>
